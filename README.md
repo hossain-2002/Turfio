@@ -1,20 +1,22 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🌿 Dew-Drop Turfs
 
-# Run and deploy your AI Studio app
+A premium sports turf booking platform designed to help users find and book their favorite grounds with ease. This project is built on a modern **Midnight Pro** theme with fresh **Dew-Drop** branding.
 
-This contains everything you need to run your app locally.
+## ✨ Key Features:
+- **Dynamic Booking System**: Easily select sports and dates to book turfs in seconds.
+- **Admin & Manager Portals**: Powerful dashboards to manage and monitor bookings efficiently.
+- **Secret Portal Access**: A hidden logic that grants access to restricted portals via 5 clicks on the logo.
+- **Fully Responsive**: A seamless user experience across both mobile and desktop devices.
 
-View your app in AI Studio: https://ai.studio/apps/drive/103pyiFazkcXz61hhtXSPP55srftbtyjz
+## 🛠️ Tech Stack:
+- **Frontend**: React.js, TypeScript, Tailwind CSS.
+- **Icons**: Lucide React.
+- **Animations**: Framer Motion.
 
-## Run Locally
+## 🚀 How to Run Locally:
+1. **Clone the repository** to your local machine.
+2. Open the terminal and run `npm install` to install all dependencies.
+3. Start the project by running the `npm run dev` command.
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+**Crafted with ❤️ by SHISHIR**

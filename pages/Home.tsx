@@ -25,10 +25,6 @@ const HERO_SLIDES = [
     id: 4,
     image: "https://images.unsplash.com/photo-1624880357913-a8539238245b?auto=format&fit=crop&q=80&w=2070",
   },
-  {
-    id: 5,
-    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=2070",
-  }
 ];
 
 // Testimonials Data

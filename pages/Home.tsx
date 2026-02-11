@@ -6,25 +6,22 @@ import {
   ChevronDown, ChevronLeft, ChevronRight, Zap, ShieldCheck, Headphones, Quote, X, Filter
 } from 'lucide-react';
 import { useData } from '../context/DataContext';
-
+import h1Img from '../images/h1.avif';
 // Hero Slider Data
 const HERO_SLIDES = [
   {
     id: 1,
-    image: "https://images.unsplash.com/photo-1529900748604-07564a03e7a6?auto=format&fit=crop&q=80&w=2070",
+    image: h1Img,
   },
   {
     id: 2,
-    image: "https://images.unsplash.com/photo-1531415074968-bc2ce8e1716d?auto=format&fit=crop&q=80&w=2070",
+    image: "https://images.unsplash.com/photo-1624880357913-a8539238245b?auto=format&fit=crop&q=80&w=2070",
   },
   {
     id: 3,
     image: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&q=80&w=2070",
   },
-  {
-    id: 4,
-    image: "https://images.unsplash.com/photo-1624880357913-a8539238245b?auto=format&fit=crop&q=80&w=2070",
-  },
+ 
 ];
 
 // Testimonials Data

@@ -1,4 +1,15 @@
 import { User, UserRole, Turf, Booking } from '../types';
+// src/services/mockData.ts এর একদম উপরে যোগ করুন
+import bananiImg from '../images/banani.png';
+import bashundharaImg from '../images/bashundhara.png';
+import dhanmondiImg from '../images/dhanmondi.png';
+import farmgateImg from '../images/farmgate.png';
+import gulshanImg from '../images/gulshan.png';
+import mirpurImg from '../images/mirpur.png';
+import mohammadpurImg from '../images/mohammadpur.png';
+import motijheelImg from '../images/motijheel.png';
+import shahbagImg from '../images/shahbag.png';
+import uttaraImg from '../images/uttara.png';
 
 export const INITIAL_USERS: User[] = [
   {
@@ -32,7 +43,7 @@ export const INITIAL_TURFS: Turf[] = [
     sport: 'Football',
     pricePerHour: 1200,
     description: 'A spacious turf suitable for both 5-a-side Football and Cricket matches. Features excellent floodlights.',
-    images: ['https://images.unsplash.com/photo-1529900748604-07564a03e7a6?auto=format&fit=crop&q=80&w=1000'],
+    images: [mirpurImg],
     managerId: '2',
     amenities: ['Parking', 'Water', 'Gallery']
   },
@@ -43,7 +54,7 @@ export const INITIAL_TURFS: Turf[] = [
     sport: 'Football',
     pricePerHour: 1800,
     description: 'Premier training facility located in the heart of Dhanmondi. Ideal for professional training sessions.',
-    images: ['https://images.unsplash.com/photo-1575361204480-aadea25d46b7?auto=format&fit=crop&q=80&w=1000'],
+    images: [dhanmondiImg],
     managerId: '2',
     amenities: ['Locker Room', 'Showers', 'Cafe']
   },
@@ -54,7 +65,7 @@ export const INITIAL_TURFS: Turf[] = [
     sport: 'Football',
     pricePerHour: 1600,
     description: 'High-end turf with FIFA grade grass. Perfect for corporate tournaments and competitive cricket.',
-    images: ['https://images.unsplash.com/photo-1551958219-acbc608c6377?auto=format&fit=crop&q=80&w=1000'],
+    images: [bananiImg],
     managerId: '2',
     amenities: ['VIP Lounge', 'Parking', 'Pro Shop']
   },
@@ -65,7 +76,7 @@ export const INITIAL_TURFS: Turf[] = [
     sport: 'Football',
     pricePerHour: 2000,
     description: 'Luxury sports arena for professional matches. Offers top-tier amenities and privacy.',
-    images: ['https://images.unsplash.com/photo-1624880357913-a8539238245b?auto=format&fit=crop&q=80&w=1000'],
+    images: [gulshanImg],
     managerId: '99',
     amenities: ['AC Dugouts', 'Live Screening', 'Premium Showers']
   },
@@ -76,7 +87,7 @@ export const INITIAL_TURFS: Turf[] = [
     sport: 'Football',
     pricePerHour: 2000,
     description: 'Located in the business district, great for after-work cricket and football games.',
-    images: ['https://images.unsplash.com/photo-1556056504-5c7696c4c28d?auto=format&fit=crop&q=80&w=1000'],
+    images: [motijheelImg],
     managerId: '2',
     amenities: ['Parking', 'First Aid', 'Refreshments']
   },
@@ -87,7 +98,7 @@ export const INITIAL_TURFS: Turf[] = [
     sport: 'Football',
     pricePerHour: 1500,
     description: 'A cozy but well-maintained turf focused on youth training and casual games.',
-    images: ['https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&q=80&w=1000'],
+    images: [bashundharaImg],
     managerId: '99',
     amenities: ['Water', 'Equipment Rental']
   },
@@ -98,7 +109,7 @@ export const INITIAL_TURFS: Turf[] = [
     sport: 'Football',
     pricePerHour: 1600,
     description: 'Large complex supporting multiple sports. Popular for local cricket leagues.',
-    images: ['https://images.unsplash.com/photo-1577223625816-7546f13df25d?auto=format&fit=crop&q=80&w=1000'],
+    images: [mohammadpurImg],
     managerId: '2',
     amenities: ['Parking', 'Prayer Room', 'Water']
   },
@@ -109,7 +120,7 @@ export const INITIAL_TURFS: Turf[] = [
     sport: 'Football',
     pricePerHour: 1600,
     description: 'Modern facility in Uttara Sector 4. Features a smooth surface ideal for fast-paced football.',
-    images: ['https://images.unsplash.com/photo-1524012431247-53c4f3396ad3?auto=format&fit=crop&q=80&w=1000'],
+    images: [uttaraImg],
     managerId: '2',
     amenities: ['Changing Rooms', 'Food Court', 'Wifi']
   },
@@ -120,7 +131,7 @@ export const INITIAL_TURFS: Turf[] = [
     sport: 'Football',
     pricePerHour: 1700,
     description: 'Centrally located arena accessible from all parts of the city. Great for regular training.',
-    images: ['https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?auto=format&fit=crop&q=80&w=1000'],
+    images: [farmgateImg],
     managerId: '99',
     amenities: ['Water', 'Seating Area']
   },
@@ -131,7 +142,7 @@ export const INITIAL_TURFS: Turf[] = [
     sport: 'Football',
     pricePerHour: 1900,
     description: 'Vibrant atmosphere near the university area. Excellent for student tournaments.',
-    images: ['https://images.unsplash.com/photo-1518605348399-f490b438cdd7?auto=format&fit=crop&q=80&w=1000'],
+    images: [shahbagImg],
     managerId: '2',
     amenities: ['Student Discount', 'Water', 'Locker']
   }
